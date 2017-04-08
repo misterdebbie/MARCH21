@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Creepster');
+
+body {
+  font: 14px "Creepster", Cursive;
+}
+
+#pinkbox {
+  width: 570px;
+  height: 350px;
+  margin: 5px;
+}
+#bluebox {
+  width: 200px;
+  height: 350px;
+  margin: 5px;
+}
+#pbox {
+  color: peachpuff;
+}
+
+.fendi {
+  width: 130px;
+  height: 200px;
+}
+.val{
+  width: 270px;
+  height: 450px;
+  background: powderblue;
+  margin: 5px;
+}
+.vall{
+  background-color: black;
+}
