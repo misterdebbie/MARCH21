@@ -3,10 +3,11 @@ html
     head
         link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous")
         link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous")
+        link(rel='stylesheet', href='/stylesheets/style.css')
         title TEST
     body
         nav.navbar.navbar-default
-            .container-fluid
+            .container
                 // Brand and toggle get grouped for better mobile display
                 .navbar-header
                     button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
@@ -14,22 +15,22 @@ html
                         span.icon-bar
                         span.icon-bar
                         span.icon-bar
-                    a.navbar-brand(href='#') yang&trade;
+                    a.navbar-brand(href='/') yang&trade;
                 // Collect the nav links, forms, and other content for toggling
                 #bs-example-navbar-collapse-1.collapse.navbar-collapse
                     ul.nav.navbar-nav
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false') shop
+                            a.dropdown-toggle(href='/shop', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false') shop
                                 span.caret
                             ul.dropdown-menu
                                 li
-                                    a(href='#') mother&apos;s day story
+                                    a(href='/shop/mom') your mom!
 
                                 li
-                                    a(href='#') another shop story
+                                    a(href='/shop/bf') your best friend!
 
                                 li
-                                    a(href='#') another shop story
+                                    a(href='/shop/you') you!!!!
 
                                 li.divider(role='separator')
 
@@ -42,17 +43,17 @@ html
                                     a(href='#') One more separated link
 
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false') runway
+                            a.dropdown-toggle(href='/runway', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false') runway
                                 span.caret
                             ul.dropdown-menu
                                 li
-                                    a(href='#') spring 2017
+                                    a(href='/runway/spring') spring 2017
 
                                 li
-                                    a(href='#') fall 2017
+                                    a(href='/runway/fall') fall 2017
 
                                 li
-                                    a(href='#') trends
+                                    a(href='/runway/trend') trends
 
                                 li.divider(role='separator')
 
@@ -64,14 +65,36 @@ html
                                 li
                                     a(href='#') One more separated link
                         li.dropdown
-                            a.dropdown-toggle(href='#', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false') account
+                            a.dropdown-toggle(href='/mini', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false') mini edits
                                 span.caret
                             ul.dropdown-menu
                                 li
-                                    a(href='#') login
+                                    a(href='/mini/bags') super cute bags
 
                                 li
-                                    a(href='#') register
+                                    a(href='/mini/shoes') best shoes
+
+                                li
+                                    a(href='/mini/jewels') jewels
+
+                                li.divider(role='separator')
+
+                                li
+                                    a(href='#') a link
+
+                                li.divider(role='separator')
+
+                                li
+                                    a(href='#') One more separated link
+                        li.dropdown
+                            a.dropdown-toggle(href='/account', data-toggle='dropdown', role='button', aria-haspopup='true', aria-expanded='false') account
+                                span.caret
+                            ul.dropdown-menu
+                                li
+                                    a(href='/account/login') login
+
+                                li
+                                    a(href='/account/register') register
                                 li.divider(role='separator')
 
                                 li
