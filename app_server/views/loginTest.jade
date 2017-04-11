@@ -4,18 +4,22 @@ block content
     h1.login= title
     form.form-horizontal
         .form-group
-            label.col-sm-2.control-label(for='inputEmail3') Email
-            .col-sm-10
+            label.col-sm-12.control-label#words(for='inputEmail3') Email!
+        .form-group
+            .col-sm-12
                 input#inputEmail3.form-control(type='email', placeholder='Email')
         .form-group
-            label.col-sm-2.control-label(for='inputPassword3') Password
-            .col-sm-10
+            label.col-sm-12.control-label#otherword(for='inputPassword3') Password
+        .form-group
+            .col-sm-12
                 input#inputPassword3.form-control(type='password', placeholder='Password')
         .form-group
-            .col-sm-offset-2.col-sm-10
-                button.btn.btn-default(type='submit') Sign in
-        hr
+            .col-sm-12
+                button.btn.btn-block.login(type='submit') Sign in
+        .col-sm-12
+            hr
+            p#new Register here
         .form-group
-            .col-sm-offset-2.col-sm-10
-                button.btn.btn-default(type='submit') Create account
+            .col-sm-12
+                button.btn.btn-block.login(type='submit') Create account
 
