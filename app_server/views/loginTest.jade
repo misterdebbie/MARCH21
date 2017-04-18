@@ -2,7 +2,7 @@ extends drop
 
 block content
     h1.login= title
-    form.form-horizontal(action='/users', method='POST', role='form')
+    form.form-horizontal(action='/users', method='GET', role='form')
         .form-group
             label.col-sm-12.control-label#words(for='inputEmail3') Email!
         .form-group
